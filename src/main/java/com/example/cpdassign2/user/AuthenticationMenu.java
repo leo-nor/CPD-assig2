@@ -1,4 +1,4 @@
-package com.example.cpdassign2.frontend;
+package com.example.cpdassign2.user;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
@@ -51,7 +51,8 @@ public class AuthenticationMenu extends Application {
         primaryStage.show();
     }
 
-    public static void main(String[] args) {
-        launch(args);
+    public static boolean initializeAuth() {
+        launch();
+        return true;
     }
 }

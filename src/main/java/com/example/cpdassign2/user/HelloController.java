@@ -1,4 +1,4 @@
-package com.example.cpdassign2.frontend;
+package com.example.cpdassign2.user;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

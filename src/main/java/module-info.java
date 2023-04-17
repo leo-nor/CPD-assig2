@@ -1,4 +1,4 @@
-module com.example.cpd2assign {
+module com.example.cpdassign2 {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -6,8 +6,8 @@ module com.example.cpd2assign {
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
 
-    opens com.example.cpdassign2 to javafx.fxml;
     exports com.example.cpdassign2;
-    exports com.example.cpdassign2.frontend;
-    opens com.example.cpdassign2.frontend to javafx.fxml;
+    opens com.example.cpdassign2 to javafx.fxml;
+    exports com.example.cpdassign2.user;
+    opens com.example.cpdassign2.user to javafx.fxml;
 }
